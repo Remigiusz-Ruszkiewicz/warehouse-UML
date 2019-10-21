@@ -11,6 +11,7 @@ namespace warehouse
         public string Name = "Janek";
         private bool HavePermitions = true;
         private int HoursOfWork;
+        private string TruckName;
         private readonly WorkCard workCard;
         public void StartWork(WorkCard workCard)
         {
@@ -28,6 +29,8 @@ namespace warehouse
         {
 
         }
+        
+
     }
     
 }

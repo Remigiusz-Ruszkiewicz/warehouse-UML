@@ -10,9 +10,10 @@ namespace warehouse
     {
         static void Main(string[] args)
         {
+            WorkCard workCard = new WorkCard("Roman", 8);
             Driver driver = new Driver();
-            driver.Name = "Roman";
-            WorkCard workCard = new WorkCard(driver.Name, 8);
+            driver.Work();
+            driver.Brake();
             workCard.StartJob();
             workCard.EndJob();
             Console.Read();
